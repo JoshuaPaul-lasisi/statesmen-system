@@ -431,3 +431,16 @@ a:hover { color: var(--gold); }
   font-size: 13px;
   color: rgba(245, 240, 232, 0.5);
 }
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.card-link:hover { border-color: var(--gold); background: #fff; color: inherit; }
+.card-link h3::after { content: " \2197"; color: var(--gold); font-size: 18px; }
+
+.section-inner.prose { max-width: 1280px; }
+.section-inner.prose > :not(.pull) { max-width: var(--measure); }
