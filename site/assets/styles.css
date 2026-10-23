@@ -369,10 +369,12 @@ a:hover { color: var(--gold); }
 .form-card .note { font-size: 15px; color: var(--ink-soft); }
 
 .form-card .button { margin: 12px 0 24px; }
+.form-card iframe + .note { margin-top: 16px; }
 
 .form-card iframe {
   width: 100%;
-  min-height: 1200px;
+  min-height: 1500px;
+  display: block;
   border: 0;
   background: #fff;
 }
