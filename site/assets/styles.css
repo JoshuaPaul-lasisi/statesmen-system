@@ -466,3 +466,13 @@ a:hover { color: var(--gold); }
   .brand { font-size: 16px; gap: 8px; }
   .brand img { width: 32px; height: 32px; }
 }
+
+.footer-tagline {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 18px;
+  color: var(--gold);
+  margin: 0 0 8px;
+}
+
+.home-head .eyebrow { font-size: 14px; letter-spacing: 0.18em; }
