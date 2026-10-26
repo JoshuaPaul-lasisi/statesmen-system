@@ -19,7 +19,7 @@ var CHAPTERS = [
   'UNIDEL/DELSU Chapter',
   'UNIJOS Chapter',
   'PLASU Chapter',
-  'WUKARI Chapter'
+  'FUW Chapter'
 ];
 
 var GROUPS = ['Writers and Publishers', 'Content Makers', 'Campus Politics'];
