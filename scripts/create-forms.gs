@@ -55,8 +55,8 @@ function createRegistrationForm_() {
 
   form.addTextItem().setTitle('Full name').setRequired(true);
   form.addTextItem().setTitle('Phone number (WhatsApp)').setRequired(true);
-  form.addTextItem().setTitle('Institution').setHelpText('Your university, polytechnic or college.').setRequired(true);
-  form.addTextItem().setTitle('Course and level').setHelpText('For example: Political Science, 300 level.').setRequired(true);
+  form.addTextItem().setTitle('Institution').setHelpText('Your university, polytechnic, monotechnic, college of education or other tertiary institution.').setRequired(true);
+  form.addTextItem().setTitle('Course and level').setHelpText('For example: Political Science, 300 level; Mass Communication, HND 1; or English, NCE 2.').setRequired(true);
   form.addTextItem().setTitle('State of residence').setRequired(true);
   form.addMultipleChoiceItem()
     .setTitle('Functional group')

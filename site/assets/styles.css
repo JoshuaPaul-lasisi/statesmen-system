@@ -530,3 +530,5 @@ a:hover { color: var(--gold); }
 }
 
 .home-head .eyebrow { font-size: 14px; letter-spacing: 0.18em; }
+
+.lede + .lede { margin-top: 1em; }
