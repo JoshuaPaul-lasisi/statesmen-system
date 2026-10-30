@@ -11,4 +11,8 @@ The Join page embeds the registration Google Form. `scripts/create-forms.gs` is 
 
 `site/members.html` links to the League's Google Drive folders (The Statesmen Library, each chapter folder, Statesmen Founders). Drive controls who can open each folder, so access is managed by sharing folders in Drive, not in the site code.
 
-Registrations and chapter reports are kept in the "TSL Records" Google Sheet inside the "The Statesmen League" Drive folder. It has three tabs: Members, Chapter reports and Chapters.
+Registrations and chapter reports are kept in the "TSL Records" Google Sheet inside the "The Statesmen League" Drive folder. It has three tabs: Applications (form answers plus Status, Chapter, Date admitted and Notes columns kept by the Founding Council), Chapter reports and Chapters. The member count on the Chapters tab counts Applications rows for that chapter that are not Declined or Inactive.
+
+## Hosting
+
+The site is deployed by Vercel from the `site/` folder on every push to `main`. `site/vercel.json` turns on clean addresses (`/about` instead of `/about.html`), and `site/404.html` is shown for any address that does not exist.

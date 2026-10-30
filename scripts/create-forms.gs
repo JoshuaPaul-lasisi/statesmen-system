@@ -46,7 +46,11 @@ function createRegistrationForm_() {
   var form = FormApp.create('The Statesmen League: Registration');
   form.setDescription(
     'This form takes about five minutes. We ask for some personal background and two short ' +
-    'written responses. Take your time with the written section. It is the part we read most carefully.'
+    'written responses. Take your time with the written section. It is the part we read most carefully.\n\n' +
+    'Your details are used only to review your application and, if you join, to place you in a chapter ' +
+    'and keep in touch with you. They are seen only by the Founding Council and your Chapter Leader, and ' +
+    'are never sold or shared outside the League. To have your details removed, write to ' +
+    'thestatesmenleague@gmail.com.'
   );
   form.setCollectEmail(true);
   form.setConfirmationMessage(
